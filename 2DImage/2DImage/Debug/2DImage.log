@@ -1,10 +1,10 @@
 ﻿  main.cpp
-C:\Users\cwmwa\OneDrive\Desktop\Computer Graphics\2DImage\2DImage\main.cpp(29,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\cwmwa\OneDrive\Desktop\Computer Graphics\2DImage\2DImage\main.cpp(30,28): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\cwmwa\OneDrive\Desktop\Computer Graphics\2DImage\2DImage\main.cpp(32,28): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\cwmwa\OneDrive\Desktop\Computer Graphics\2DImage\2DImage\main.cpp(33,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\cwmwa\OneDrive\Desktop\Computer Graphics\2DImage\2DImage\main.cpp(34,30): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\cwmwa\OneDrive\Desktop\Computer Graphics\2DImage\2DImage\main.cpp(35,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\cwmwa\OneDrive\Desktop\Computer Graphics\2DImage\2DImage\main.cpp(36,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\cwmwa\OneDrive\Desktop\Computer Graphics\2DImage\2DImage\main.cpp(37,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-  2DImage.vcxproj -> C:\Users\cwmwa\OneDrive\Desktop\Computer Graphics\2DImage\Debug\2DImage.exe
+C:\Users\Brian\source\repos\ComputerGraphicsTasks\2DImage\2DImage\main.cpp(32,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\Brian\source\repos\ComputerGraphicsTasks\2DImage\2DImage\main.cpp(33,28): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\Brian\source\repos\ComputerGraphicsTasks\2DImage\2DImage\main.cpp(35,28): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\Brian\source\repos\ComputerGraphicsTasks\2DImage\2DImage\main.cpp(36,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\Brian\source\repos\ComputerGraphicsTasks\2DImage\2DImage\main.cpp(37,30): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\Brian\source\repos\ComputerGraphicsTasks\2DImage\2DImage\main.cpp(38,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\Brian\source\repos\ComputerGraphicsTasks\2DImage\2DImage\main.cpp(39,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\Brian\source\repos\ComputerGraphicsTasks\2DImage\2DImage\main.cpp(40,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  2DImage.vcxproj -> C:\Users\Brian\source\repos\ComputerGraphicsTasks\2DImage\Debug\2DImage.exe
