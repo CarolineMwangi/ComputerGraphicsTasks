@@ -1,10 +1,12 @@
 ﻿  main.cpp
-C:\Users\Brian\source\repos\ComputerGraphicsTasks\2DImage\2DImage\main.cpp(32,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\Brian\source\repos\ComputerGraphicsTasks\2DImage\2DImage\main.cpp(33,28): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\Brian\source\repos\ComputerGraphicsTasks\2DImage\2DImage\main.cpp(34,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
 C:\Users\Brian\source\repos\ComputerGraphicsTasks\2DImage\2DImage\main.cpp(35,28): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\Brian\source\repos\ComputerGraphicsTasks\2DImage\2DImage\main.cpp(36,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\Brian\source\repos\ComputerGraphicsTasks\2DImage\2DImage\main.cpp(37,30): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\Brian\source\repos\ComputerGraphicsTasks\2DImage\2DImage\main.cpp(37,28): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
 C:\Users\Brian\source\repos\ComputerGraphicsTasks\2DImage\2DImage\main.cpp(38,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\Brian\source\repos\ComputerGraphicsTasks\2DImage\2DImage\main.cpp(39,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\Brian\source\repos\ComputerGraphicsTasks\2DImage\2DImage\main.cpp(39,30): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
 C:\Users\Brian\source\repos\ComputerGraphicsTasks\2DImage\2DImage\main.cpp(40,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\Brian\source\repos\ComputerGraphicsTasks\2DImage\2DImage\main.cpp(41,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\Brian\source\repos\ComputerGraphicsTasks\2DImage\2DImage\main.cpp(42,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\Brian\source\repos\ComputerGraphicsTasks\2DImage\2DImage\main.cpp(95,38): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
   2DImage.vcxproj -> C:\Users\Brian\source\repos\ComputerGraphicsTasks\2DImage\Debug\2DImage.exe
