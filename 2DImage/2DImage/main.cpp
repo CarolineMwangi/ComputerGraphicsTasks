@@ -11,7 +11,7 @@ int main(void)
         return -1;
 
     /* Create a windowed mode window and its OpenGL context */
-    window = glfwCreateWindow(1080, 680, "2D Image", NULL, NULL);
+    window = glfwCreateWindow(840, 680, "2D Image", NULL, NULL);
     if (!window)
     {
         glfwTerminate();
