@@ -1,2 +1,3 @@
 ﻿  main.cpp
+C:\Users\cwmwa\OneDrive\Desktop\Computer Graphics\ComputerGraphicsTasks\2DImage\2DImage\main.cpp(94,38): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
   2DImage.vcxproj -> C:\Users\cwmwa\OneDrive\Desktop\Computer Graphics\ComputerGraphicsTasks\2DImage\Debug\2DImage.exe
