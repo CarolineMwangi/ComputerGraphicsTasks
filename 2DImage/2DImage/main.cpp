@@ -1,4 +1,6 @@
 #include <GLFW/glfw3.h>
+#include <math.h>
+
 
 int main(void)
 {
@@ -9,7 +11,7 @@ int main(void)
         return -1;
 
     /* Create a windowed mode window and its OpenGL context */
-    window = glfwCreateWindow(840, 680, "2D Image", NULL, NULL);
+    window = glfwCreateWindow(1080, 680, "2D Image", NULL, NULL);
     if (!window)
     {
         glfwTerminate();
@@ -29,15 +31,15 @@ int main(void)
         //Outer frame
         glBegin(GL_LINE_LOOP);
         glColor3f(0, 0, 0);
-        glVertex2f(-0.7, 0.7);
-        glVertex2f(0.5, 0.7);
-        glVertex2f(0.5, 0.5);
-        glVertex2f(0.4, 0.5);
-        glVertex2f(0.4, -0.3);
-        glVertex2f(-0.6, -0.3);
-        glVertex2f(-0.6, 0.5);
-        glVertex2f(-0.8, 0.5);
-        glVertex2f(-0.8, 0.7);
+        glVertex2f(-0.7f, 0.7f);
+        glVertex2f(0.5f, 0.7f);
+        glVertex2f(0.5f, 0.5f);
+        glVertex2f(0.4f, 0.5f);
+        glVertex2f(0.4f, -0.3f);
+        glVertex2f(-0.6f, -0.3f);
+        glVertex2f(-0.6f, 0.5f);
+        glVertex2f(-0.7f, 0.5f);
+        glVertex2f(-0.7f, 0.7f);
         
         glEnd();
 
@@ -58,7 +60,6 @@ int main(void)
         glVertex2f(-0.4f, 0.3f);
         glVertex2f(-0.4f, 0.5f);
         glEnd();
-
 
 
         //window on the right
@@ -87,7 +88,7 @@ int main(void)
         glVertex2f(-0.2f, 0.1f);
         glEnd();
 
-
+     
 
         /* Swap front and back buffers */
         glfwSwapBuffers(window);
