@@ -46,7 +46,7 @@ int main(void)
 
         //window on the left
         glBegin(GL_LINE_LOOP);
-        glColor3f(0, 0, 0);
+        glColor3f(0.000, 0.392, 0.000);
         glVertex2f(-0.5f, -0.3f);
         glVertex2f(-0.3f, -0.3f);
         glVertex2f(-0.3f, -0.1f);
@@ -64,7 +64,7 @@ int main(void)
 
         //window on the right
         glBegin(GL_LINE_LOOP);
-        glColor3f(0, 0, 0);
+        glColor3f(0.000, 0.392, 0.000);
         glVertex2f(0.1f, -0.3f);
         glVertex2f(0.3f, -0.3f);
         glVertex2f(0.3f, -0.1f);
@@ -81,7 +81,7 @@ int main(void)
 
         //door
         glBegin(GL_LINE_LOOP);
-        glColor3f(0, 0, 0);
+        glColor3f(0.000, 0.392, 0.000);
         glVertex2f(-0.2f, -0.9f);
         glVertex2f(0.0f, -0.9f);
         glVertex2f(0.0f, -0.5f);
@@ -117,6 +117,29 @@ int main(void)
         }
         glEnd();
 
+
+        //Arc at the top
+        glBegin(GL_LINE_LOOP);
+        glColor3f(0, 0, 0);
+        double radius6 = 0.4;
+        double ori_x6 = -0.1;
+        double ori_y6 = 0.1;
+        for (int i = 0; i <= 300; i++) {
+            double angle6 = 2 * 3.412 * i / 650;
+            double x6 = cos(angle6) * radius6;
+            double y6 = sin(angle6) * radius6;
+            glVertex2d(ori_x6 + x6, ori_y6 + y6);
+        }
+        glEnd();
+
+
+        //Door handle
+        glBegin(GL_POINTS);
+        glColor3f(0.000, 0.000, 0.804);
+        glVertex2f(-0.03f, -0.7f);
+
+        glEnd();
+        glPointSize(6.0);
 
        
         /* Swap front and back buffers */
