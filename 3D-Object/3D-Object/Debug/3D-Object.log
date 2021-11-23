@@ -1,0 +1,4 @@
+﻿  Main.cpp
+C:\Users\cwmwa\OneDrive\Desktop\Computer Graphics\3D-Object\3D-Object\Main.cpp(44,22): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\Users\cwmwa\OneDrive\Desktop\Computer Graphics\3D-Object\3D-Object\Main.cpp(44,16): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+  3D-Object.vcxproj -> C:\Users\cwmwa\OneDrive\Desktop\Computer Graphics\3D-Object\Debug\3D-Object.exe
